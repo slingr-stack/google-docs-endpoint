@@ -1,0 +1,37 @@
+{
+  "fileName": "functions",
+  "endpointName": "googledocs",
+  "apiDescriptors": [
+    {
+      "prefix": "",
+      "suffix": "",
+      "method": "POST",
+      "url": "/documents/:documentId/batchUpdate",
+      "omittableUrlParts": [],
+      "docsLinks": [
+        "https://developers.google.com/docs/api/reference/rest"
+      ],
+      "injectedHelper": true
+    },
+    {
+      "prefix": "",
+      "suffix": "",
+      "method": "POST",
+      "url": "/documents",
+      "omittableUrlParts": [],
+      "docsLinks": [
+        "https://developers.google.com/docs/api/reference/rest"
+      ]
+    },
+    {
+      "prefix": "",
+      "suffix": "",
+      "method": "GET",
+      "url": "/documents/:documentId",
+      "omittableUrlParts": [],
+      "docsLinks": [
+        "https://developers.google.com/docs/api/reference/rest"
+      ]
+    }
+  ]
+}

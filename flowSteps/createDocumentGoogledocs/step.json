@@ -1,0 +1,24 @@
+{
+  "label": "Create Document with the googledocs endpoint",
+  "name": "createDocumentGoogledocs",
+  "category": "integrations",
+  "description": "This flow step will send a request to create a Document with googledocs",
+  "inputs": [
+    {
+      "label": "Title",
+      "name": "title",
+      "type": "text",
+      "options": {
+        "allowContextSelector": "true"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "label": "Response",
+      "name": "response",
+      "type": "object",
+      "description": "The response to external URL"
+    }
+  ]
+}
